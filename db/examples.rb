@@ -16,3 +16,22 @@
 #                password: 'abc123',
 #                password_confirmation: nil)
 # end
+
+Author.create([
+                { given_name: 'Roald', surname: 'Dahl' },
+                { given_name: 'Dr', surname: 'Seuss' },
+                { given_name: 'Bilbo', surname: 'Baggins' },
+                { given_name: 'Herb', surname: 'The Herbinator' },
+                { given_name: 'Some Guy From', surname: 'Bahstahn' }
+              ])
+
+Book.create([
+              { title: 'There and back again', author_id: 3 },
+              { title: '50 Shades of Herb', author_id: 4 },
+              { title: 'A Heartbreak' },
+              { title: 'Example Title Numbah Two, Kid!', author_id: 5 },
+              { title: 'A Wacky Title' },
+              { title: 'One Fish, Two Fish, Red Fish, Blue Fish', author_id: 2 },
+              { title: 'The BFG', author_id: 1 },
+              { title: 'Matilda', author_id: 1 }
+            ])
