@@ -35,3 +35,15 @@ Book.create([
               { title: 'The BFG', author_id: 1 },
               { title: 'Matilda', author_id: 1 }
             ])
+
+ Borrower.create([
+                   { given_name: 'Alex', surname: 'Beers' },
+                   { given_name: 'Herb', surname: 'inator' },
+                   { given_name: 'Bilbo', surname: 'Baggins' },
+                   { given_name: 'Robbe', surname: 'Rob' },
+                   { given_name: 'Antony', surname: 'not ANTHONY' }
+                 ])
+
+ Loan.create([
+               { start_date: '2016-09-26', end_date: '2016-10-26', book_id: 1, borrower_id: 3 },
+            ])
